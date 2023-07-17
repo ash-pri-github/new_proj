@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react" ;
 
 class AddContact extends Component {
     render() {
@@ -14,6 +14,7 @@ class AddContact extends Component {
                         <label>Email</label>
                         <input type="text" name = "email" placeholder="Email" />
                     </div>
+                    <button className="ui button red">Add</button>
                 </form>
             </div>
         );
